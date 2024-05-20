@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Nama Anda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Portofolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#tentang">Tentang Saya</a></li>
+        <li><a href="#keahlian">Keahlian</a></li>
+        <li><a href="#portofolio">Portofolio</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tentang">
+      <h2>Tentang Saya</h2>
+      <p>Paragraf singkat tentang diri Anda, pengalaman, dan tujuan Anda.</p>
+    </section>
+
+    <section id="keahlian">
+      <h2>Keahlian</h2>
+      <ul>
+        <li>Keahlian 1</li>
+        <li>Keahlian 2</li>
+        <li>Keahlian 3</li>
+      </ul>
+    </section>
+
+    <section id="portofolio">
+      <h2>Portofolio</h2>
+      <div class="project">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Nama Project 1</h3>
+        <p>Deskripsi singkat project 1.</p>
+        <a href="#">Lihat Detail</a>
+      </div>
+      <div class="project">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>Nama Project 2</h3>
+        <p>Deskripsi singkat project 2.</p>
+        <a href="#">Lihat Detail</a>
+      </div>
+      </section>
+
+    <section id="kontak">
+      <h2>Kontak</h2>
+      <p>Informasi kontak Anda, seperti email, nomor telepon, dan tautan media sosial.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Nama Anda</p>
+  </footer>
+</body>
+</html>
+
